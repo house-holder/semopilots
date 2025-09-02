@@ -1,16 +1,24 @@
 /* CSS Variables for theming */
 :root {
-    /* Light mode - Sepia tones inspired by historic hangar photo */
-    --primary-color: #8B4513;
-    --secondary-color: #D2691E;
-    --accent-color: #CD853F;
+    /* Light mode - Official SEMO Brand Colors */
+    --primary-color: #C8102E;
+    /* Southeast Red */
+    --secondary-color: #9D2235;
+    /* Cardiac Red */
+    --accent-color: #003B5C;
+    /* Riverfront */
     --background-color: #FDF5E6;
+    /* Warm cream (aviation theme) */
     --surface-color: #FAF0E6;
-    --text-color: #2F1B14;
-    --text-muted: #654321;
-    --border-color: #DEB887;
-    --shadow-color: rgba(139, 69, 19, 0.1);
-    --hero-overlay: rgba(47, 27, 20, 0.4);
+    /* Light cream */
+    --text-color: #000000;
+    /* Rich Black */
+    --text-muted: #5B6670;
+    /* Pewter */
+    --border-color: #C8102E;
+    /* Southeast Red */
+    --shadow-color: rgba(200, 16, 46, 0.1);
+    --hero-overlay: rgba(0, 0, 0, 0.5);
 
     /* Typography */
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -33,18 +41,26 @@
     --transition: all 0.3s ease;
 }
 
-/* Dark mode variables */
+/* Dark mode variables - SEMO-inspired dark theme */
 [data-theme="dark"] {
-    --primary-color: #CD853F;
-    --secondary-color: #D2691E;
-    --accent-color: #F4A460;
+    --primary-color: #C8102E;
+    /* Southeast Red */
+    --secondary-color: #9D2235;
+    /* Cardiac Red */
+    --accent-color: #71C5E8;
+    /* Fountain (light blue) */
     --background-color: #1a1a1a;
+    /* Dark background */
     --surface-color: #2d2d2d;
-    --text-color: #F5F5DC;
-    --text-muted: #D2B48C;
-    --border-color: #654321;
+    /* Dark surface */
+    --text-color: #FFFFFF;
+    /* White text */
+    --text-muted: #A4DBE8;
+    /* Sky Blue */
+    --border-color: #C8102E;
+    /* Southeast Red */
     --shadow-color: rgba(0, 0, 0, 0.3);
-    --hero-overlay: rgba(0, 0, 0, 0.6);
+    --hero-overlay: rgba(0, 0, 0, 0.7);
 }
 
 /* Reset and base styles */
