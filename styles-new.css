@@ -1,22 +1,13 @@
 /* CSS Variables for theming */
 :root {
-    /* Light mode - Official SEMO Brand Colors */
     --primary-color: #C8102E;
-    /* Southeast Red */
     --secondary-color: #9D2235;
-    /* Cardiac Red */
     --accent-color: #003B5C;
-    /* Riverfront */
     --background-color: #FDF5E6;
-    /* Warm cream (aviation theme) */
     --surface-color: #FAF0E6;
-    /* Light cream */
     --text-color: #000000;
-    /* Rich Black */
     --text-muted: #5B6670;
-    /* Pewter */
     --border-color: #C8102E;
-    /* Southeast Red */
     --shadow-color: rgba(200, 16, 46, 0.1);
     --hero-overlay: rgba(0, 0, 0, 0.5);
 
@@ -44,21 +35,13 @@
 /* Dark mode variables - SEMO-inspired dark theme */
 [data-theme="dark"] {
     --primary-color: #C8102E;
-    /* Southeast Red */
     --secondary-color: #9D2235;
-    /* Cardiac Red */
     --accent-color: #8d8d8d;
-    /* Neutral gray */
     --background-color: #1a1a1a;
-    /* Dark background */
     --surface-color: #2d2d2d;
-    /* Dark surface */
     --text-color: #FFFFFF;
-    /* White text */
-    --text-muted: #A4DBE8;
-    /* Sky Blue */
+    --text-muted: #FDF5E6;
     --border-color: #C8102E;
-    /* Southeast Red */
     --shadow-color: rgba(0, 0, 0, 0.3);
     --hero-overlay: rgba(0, 0, 0, 0.7);
 }
