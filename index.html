@@ -18,6 +18,12 @@
                     <li><a href="#download">Download KML</a></li>
                     <li><a href="#instructions">Instructions</a></li>
                     <li><a href="procedures.html">Procedures</a></li>
+                    <li class="theme-toggle">
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="light-icon">☀️</span>
+                            <span class="dark-icon">🌙</span>
+                        </button>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -25,6 +31,10 @@
 
     <main>
         <section class="hero">
+            <div class="hero-background">
+                <img src="assets/cgieastramp.jpg" alt="Historic CGI East Ramp Hangars" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
             <div class="hero-content">
                 <h2>ForeFlight KML Overlay</h2>
                 <p>Download the latest SEMO procedures overlay for ForeFlight</p>
@@ -93,22 +103,55 @@
                 <h3>About This Overlay</h3>
                 <p>This KML file contains the latest SEMO (Southeast Missouri) flight procedures, including:</p>
                 <ul>
-                    <li>Standard arrival and departure procedures</li>
-                    <li>Local flight patterns</li>
-                    <li>Emergency procedures</li>
-                    <li>Restricted airspace boundaries</li>
+                    <li>Local airport arrival gates</li>
+                    <li>Practice area boundaries</li>
+                    <li>Visually distinct air-to-air reporting points</li>
                 </ul>
-                <p><strong>Note:</strong> Always verify procedures with current NOTAMs and official sources before
-                    flight.</p>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 SEMO Pilots. For educational purposes only.</p>
+            <p>&copy; 2025 SEMO Pilots Association. All content is for educational purposes only, check your NOTAMs!</p>
         </div>
     </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', savedTheme);
+
+        // Update toggle button state
+        function updateToggleState() {
+            const currentTheme = body.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+            }
+        }
+
+        // Toggle theme
+        function toggleTheme() {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateToggleState();
+        }
+
+        // Event listeners
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Initialize theme state
+        updateToggleState();
+    </script>
 </body>
 
 </html>
