@@ -495,11 +495,26 @@ header {
 
 .procedure-image {
     margin-bottom: var(--spacing-lg);
+    width: 50%;
     max-width: 100%;
     height: auto;
-    width: 100%;
     border-radius: var(--border-radius);
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .procedure-img {
+        width: 80%;
+        /* 80% on mobile instead of 50% */
+    }
+}
+
+/* On very small screens */
+@media (max-width: 480px) {
+    .procedure-img {
+        width: 95%;
+        /* Almost full width on tiny screens */
+    }
 }
 
 .placeholder-image {
