@@ -495,12 +495,10 @@ header {
 
 .procedure-image {
     margin-bottom: var(--spacing-lg);
-    /* Remove width, height, etc. from here */
 }
 
 .procedure-img {
-    width: 50%;
-    /* Start smaller for desktop */
+    width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -510,13 +508,13 @@ header {
 
 @media (max-width: 768px) {
     .procedure-img {
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media (max-width: 480px) {
     .procedure-img {
-        width: 95%;
+        width: 100%;
     }
 }
 
