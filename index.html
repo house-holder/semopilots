@@ -17,9 +17,9 @@
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="index.html#download">Overlay</a></li>
-                    <li><a href="arrival-gates.html" class="active">Arrival Gates</a></li>
-                    <li><a href="air-to-air.html" class="active">Air-to-Air</a></li>
-                    <li><a href="learning.html" class="active">New Students</a></li>
+                    <li><a href="arrival-gates.html">Arrival Gates</a></li>
+                    <li><a href="air-to-air.html">Air-to-Air</a></li>
+                    <li><a href="learning.html">New Students</a></li>
                     <li class="theme-toggle">
                         <button id="theme-toggle" aria-label="Toggle dark mode">
                             <span class="light-icon">☀️</span>
@@ -192,16 +192,13 @@
     </footer>
 
     <script>
-        // Theme toggle functionality
         const themeToggle = document.getElementById('theme-toggle');
         const body = document.body;
 
-        // Check for saved theme preference or default to light mode
         const savedTheme = localStorage.getItem('theme') || 'light';
         body.setAttribute('data-theme', savedTheme);
-        themeToggle.setAttribute('data-theme', savedTheme); // Set on toggle button too
+        themeToggle.setAttribute('data-theme', savedTheme);
 
-        // Update toggle button state
         function updateToggleState() {
             const currentTheme = body.getAttribute('data-theme');
             if (currentTheme === 'dark') {
@@ -209,25 +206,20 @@
             } else {
                 body.classList.remove('dark-mode');
             }
-            // Update toggle button data-theme for animation
             themeToggle.setAttribute('data-theme', currentTheme);
         }
 
-        // Toggle theme
         function toggleTheme() {
             const currentTheme = body.getAttribute('data-theme');
             const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
             body.setAttribute('data-theme', newTheme);
-            themeToggle.setAttribute('data-theme', newTheme); // Update toggle button
+            themeToggle.setAttribute('data-theme', newTheme);
             localStorage.setItem('theme', newTheme);
             updateToggleState();
         }
 
-        // Event listeners
         themeToggle.addEventListener('click', toggleTheme);
-
-        // Initialize theme state
         updateToggleState();
     </script>
 </body>
