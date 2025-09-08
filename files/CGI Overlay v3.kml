@@ -1,0 +1,1927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CGI Overlay v3.kml</name>
+	<StyleMap id="icon-503-0288D1-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="icon-503-0288D1-nodesc-highlight">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight10">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight11">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight12">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight13">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight14">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight15">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight2">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight6">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight7">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight8">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-highlight9">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal0">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal11">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal12">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal13">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal14">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal15">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal5">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal6">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal7">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal8">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="icon-503-0288D1-nodesc-normal9">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<StyleMap id="icon-503-0288D1-nodesc1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal13</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight14</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight13</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal12</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal11</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="icon-503-0288D1-nodesc9">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#icon-503-0288D1-nodesc-normal8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#icon-503-0288D1-nodesc-highlight5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle00</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ltblu-circle4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ltblu-circle3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ltblu-circle2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-diamond">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_red-diamond0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_red-diamond</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_red-diamond0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle0">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle1">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle2">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle3">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ltblu-circle4">
+		<IconStyle>
+			<scale>1.18182</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sh_red-diamond0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle00">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle1">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle3">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_ltblu-circle4">
+		<IconStyle>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ffffff55</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-diamond">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Style id="sn_red-diamond0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond.png</href>
+			</Icon>
+			<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff0000ff</color>
+		</LabelStyle>
+		<ListStyle>
+			<ItemIcon>
+				<href>http://maps.google.com/mapfiles/kml/paddle/red-diamond-lv.png</href>
+			</ItemIcon>
+		</ListStyle>
+	</Style>
+	<Folder>
+		<name>USAA Practice Areas</name>
+		<open>1</open>
+		<Folder>
+			<name>CGI Points v3</name>
+			<Folder>
+				<name>West Practice Area</name>
+				<Placemark>
+					<name>Advance</name>
+					<styleUrl>#msn_ltblu-circle4</styleUrl>
+					<Point>
+						<coordinates>-89.9105029,37.1040685,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Oran</name>
+					<styleUrl>#msn_ltblu-circle4</styleUrl>
+					<Point>
+						<coordinates>-89.65581589999999,37.0852061,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bird Hill</name>
+					<styleUrl>#msn_ltblu-circle4</styleUrl>
+					<Point>
+						<coordinates>-89.766116,37.0906869,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Block Hole</name>
+					<styleUrl>#msn_ltblu-circle4</styleUrl>
+					<Point>
+						<coordinates>-89.84012439999999,37.2133803,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ag Strip</name>
+					<styleUrl>#msn_red-diamond0</styleUrl>
+					<Point>
+						<coordinates>-89.7940261,37.0848781,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Northwest Practice Area</name>
+				<Placemark>
+					<name>Apple Creek</name>
+					<styleUrl>#icon-503-0288D1-nodesc</styleUrl>
+					<Point>
+						<coordinates>-89.7512895,37.6133717,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Daisy</name>
+					<styleUrl>#msn_ltblu-circle0</styleUrl>
+					<Point>
+						<coordinates>-89.79385910000001,37.5231864,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>North Mine</name>
+					<styleUrl>#icon-503-0288D1-nodesc1</styleUrl>
+					<Point>
+						<coordinates>-89.77433765814614,37.40138128113223,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>P&amp;G</name>
+					<styleUrl>#icon-503-0288D1-nodesc9</styleUrl>
+					<Point>
+						<coordinates>-89.5102045,37.4840293,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Pocahontas</name>
+					<LookAt>
+						<longitude>-89.6561570774919</longitude>
+						<latitude>37.49561200725304</latitude>
+						<altitude>0</altitude>
+						<heading>-0.4853647672484949</heading>
+						<tilt>20.68289789083829</tilt>
+						<range>11896.64244769315</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.63970638372139,37.50004734607768,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Scopus</name>
+					<LookAt>
+						<longitude>-89.91455648980583</longitude>
+						<latitude>37.40059358415923</latitude>
+						<altitude>0</altitude>
+						<heading>-0.2852254766443575</heading>
+						<tilt>11.29130222846133</tilt>
+						<range>3099.026414750807</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.92205613444062,37.39899486131314,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Northeast Practice Area</name>
+				<Placemark>
+					<name>Cobden</name>
+					<styleUrl>#icon-503-0288D1-nodesc2</styleUrl>
+					<Point>
+						<coordinates>-89.25409000000001,37.5323375,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tower Rock</name>
+					<styleUrl>#icon-503-0288D1-nodesc13</styleUrl>
+					<Point>
+						<coordinates>-89.5147683,37.6318307,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Anna Quarry</name>
+					<styleUrl>#icon-503-0288D1-nodesc6</styleUrl>
+					<Point>
+						<coordinates>-89.23426859999999,37.4671775,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Wolf Lake</name>
+					<styleUrl>#icon-503-0288D1-nodesc15</styleUrl>
+					<Point>
+						<coordinates>-89.4377449,37.503644,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>East Practice Area</name>
+				<Placemark>
+					<name>East Mine</name>
+					<styleUrl>#icon-503-0288D1-nodesc10</styleUrl>
+					<Point>
+						<coordinates>-89.32810739999999,37.2772335,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Tamms</name>
+					<styleUrl>#msn_ltblu-circle2</styleUrl>
+					<Point>
+						<coordinates>-89.2695839,37.234981,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Ullin</name>
+					<LookAt>
+						<longitude>-89.19360484459281</longitude>
+						<latitude>37.27056280132269</latitude>
+						<altitude>0</altitude>
+						<heading>0.09619508271975757</heading>
+						<tilt>3.828637544546009</tilt>
+						<range>11737.80007412212</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.18469219440919,37.27543102376518,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bluff Lake</name>
+					<styleUrl>#icon-503-0288D1-nodesc3</styleUrl>
+					<Point>
+						<coordinates>-89.3543421,37.3773805,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Elco</name>
+					<LookAt>
+						<longitude>-89.26115179762833</longitude>
+						<latitude>37.30305611872162</latitude>
+						<altitude>0</altitude>
+						<heading>0.07471939403663211</heading>
+						<tilt>16.04338309618218</tilt>
+						<range>1645.431880841872</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#m_ylw-pushpin2</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.26417010880149,37.30233966898934,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Southeast Practice Area</name>
+				<Placemark>
+					<name>Stranded Barge</name>
+					<LookAt>
+						<longitude>-89.35063486400445</longitude>
+						<latitude>37.08839444638736</latitude>
+						<altitude>0</altitude>
+						<heading>-0.2493458739952674</heading>
+						<tilt>12.43820169533874</tilt>
+						<range>1773.195799358002</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.35242631607105,37.08775949807025,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Horseshoe Lake</name>
+					<styleUrl>#msn_ltblu-circle</styleUrl>
+					<Point>
+						<coordinates>-89.34140650000001,37.1318803,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Blue Hole</name>
+					<styleUrl>#msn_ltblu-circle3</styleUrl>
+					<Point>
+						<coordinates>-89.1269506,36.9623315,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Price Landing</name>
+					<styleUrl>#msn_ltblu-circle3</styleUrl>
+					<Point>
+						<coordinates>-89.3634587,37.0280661,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Swamp Lake</name>
+					<styleUrl>#msn_ltblu-circle3</styleUrl>
+					<Point>
+						<coordinates>-89.3744682,36.956238,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Browns Bar</name>
+					<styleUrl>#msn_ltblu-circle3</styleUrl>
+					<Point>
+						<coordinates>-89.27956759999999,36.9958326,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Blodgett</name>
+					<styleUrl>#msn_ltblu-circle3</styleUrl>
+					<Point>
+						<coordinates>-89.52722559999999,37.0039671,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Heli Base</name>
+					<styleUrl>#msn_red-diamond</styleUrl>
+					<Point>
+						<coordinates>-89.53508600000001,36.9424004,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Southwest Practice Area</name>
+				<Placemark>
+					<name>Tanner</name>
+					<LookAt>
+						<longitude>-89.6862117211658</longitude>
+						<latitude>36.91911944009489</latitude>
+						<altitude>0</altitude>
+						<heading>-0.4946946059986255</heading>
+						<tilt>12.80480400236833</tilt>
+						<range>6256.417057689767</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<styleUrl>#msn_ltblu-circle1</styleUrl>
+					<Point>
+						<gx:drawOrder>1</gx:drawOrder>
+						<coordinates>-89.68432839386507,36.91778786267426,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Purina</name>
+					<styleUrl>#icon-503-0288D1-nodesc11</styleUrl>
+					<Point>
+						<coordinates>-89.8687449,36.962416,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Vanduser</name>
+					<styleUrl>#icon-503-0288D1-nodesc14</styleUrl>
+					<Point>
+						<coordinates>-89.6868758,36.9906697,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bloomfield</name>
+					<styleUrl>#icon-503-0288D1-nodesc5</styleUrl>
+					<Point>
+						<coordinates>-89.9288627,36.884982,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Bell City</name>
+					<styleUrl>#icon-503-0288D1-nodesc8</styleUrl>
+					<Point>
+						<coordinates>-89.81986879999999,37.0228509,0</coordinates>
+					</Point>
+				</Placemark>
+				<Placemark>
+					<name>Circle City</name>
+					<styleUrl>#icon-503-0288D1-nodesc12</styleUrl>
+					<Point>
+						<coordinates>-89.8032414,36.8584166,0</coordinates>
+					</Point>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Document>
+			<name>CGI Areas v3</name>
+			<StyleMap id="icon-503-62AF44-nodesc">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#icon-503-62AF44-nodesc-normal0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#icon-503-62AF44-nodesc-highlight</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="icon-503-62AF44-nodesc-highlight">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="icon-503-62AF44-nodesc-highlight0">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="icon-503-62AF44-nodesc-normal">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="icon-503-62AF44-nodesc-normal0">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<StyleMap id="icon-503-62AF44-nodesc0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#icon-503-62AF44-nodesc-normal</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#icon-503-62AF44-nodesc-highlight0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_grn-circle">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_grn-circle</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_grn-circle0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_grn-circle0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_grn-circle</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_grn-circle1</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_grn-circle1">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_grn-circle0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_grn-circle</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_ylw-pushpin">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="msn_ylw-pushpin0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#sn_ylw-pushpin0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#sh_ylw-pushpin</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="poly-E65100-4101-0-nodesc">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#poly-E65100-4101-0-nodesc-normal0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#poly-E65100-4101-0-nodesc-highlight0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="poly-E65100-4101-0-nodesc-highlight">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4101-0-nodesc-highlight0">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4101-0-nodesc-normal">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4101-0-nodesc-normal0">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="poly-E65100-4101-0-nodesc0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#poly-E65100-4101-0-nodesc-normal</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#poly-E65100-4101-0-nodesc-highlight</styleUrl>
+				</Pair>
+			</StyleMap>
+			<StyleMap id="poly-E65100-4201-0-nodesc">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#poly-E65100-4201-0-nodesc-normal</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#poly-E65100-4201-0-nodesc-highlight</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="poly-E65100-4201-0-nodesc-highlight">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4201-0-nodesc-highlight0">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4201-0-nodesc-normal">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="poly-E65100-4201-0-nodesc-normal0">
+				<BalloonStyle>
+					<text><![CDATA[<h3>$[name]</h3>]]></text>
+				</BalloonStyle>
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<StyleMap id="poly-E65100-4201-0-nodesc0">
+				<Pair>
+					<key>normal</key>
+					<styleUrl>#poly-E65100-4201-0-nodesc-normal0</styleUrl>
+				</Pair>
+				<Pair>
+					<key>highlight</key>
+					<styleUrl>#poly-E65100-4201-0-nodesc-highlight0</styleUrl>
+				</Pair>
+			</StyleMap>
+			<Style id="sh_grn-circle">
+				<IconStyle>
+					<scale>1.18182</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="sh_grn-circle0">
+				<IconStyle>
+					<scale>1.18182</scale>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="sh_grn-circle1">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="sh_ylw-pushpin">
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>6.0015</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="sh_ylw-pushpin0">
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_grn-circle">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="sn_grn-circle0">
+				<IconStyle>
+					<Icon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href>
+					</Icon>
+					<hotSpot x="32" y="1" xunits="pixels" yunits="pixels"/>
+				</IconStyle>
+				<LabelStyle>
+					<color>ff7fff00</color>
+				</LabelStyle>
+				<ListStyle>
+					<ItemIcon>
+						<href>http://maps.google.com/mapfiles/kml/paddle/grn-circle-lv.png</href>
+					</ItemIcon>
+				</ListStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin">
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Style id="sn_ylw-pushpin0">
+				<LineStyle>
+					<color>ff0051e6</color>
+					<width>4.001</width>
+				</LineStyle>
+				<PolyStyle>
+					<color>ff0051e6</color>
+					<fill>0</fill>
+				</PolyStyle>
+			</Style>
+			<Placemark>
+				<name>Goose Island</name>
+				<styleUrl>#msn_grn-circle</styleUrl>
+				<Point>
+					<coordinates>-89.4070641,37.1299344,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jackson</name>
+				<styleUrl>#msn_grn-circle0</styleUrl>
+				<Point>
+					<coordinates>-89.6672167,37.3818619,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Devil&apos;s Island</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>-89.4445456,37.3309057,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Delta</name>
+				<styleUrl>#msn_grn-circle1</styleUrl>
+				<Point>
+					<coordinates>-89.73775740000001,37.1964905,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Benton</name>
+				<styleUrl>#icon-503-62AF44-nodesc0</styleUrl>
+				<Point>
+					<coordinates>-89.56360159847256,37.096528677172,0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>West Boundary</name>
+				<styleUrl>#msn_ylw-pushpin0</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-89.62125,37.0520497,0 -89.6215167,37.0610135,0 -89.62009999999999,37.1694,0 -89.62467100000001,37.1721465,0 -89.6278896,37.1742666,0 -89.6318808,37.1773099,0 -89.635829,37.1807805,0 -89.63915489999999,37.184097,0 -89.64203019999999,37.1872938,0 -89.6450129,37.1910203,0 -89.6480169,37.1953449,0 -89.6508279,37.2003529,0 -89.65349999999999,37.2072,0 -89.6549907,37.2121965,0 -89.6552482,37.2131363,0 -90.0140517,37.2948915,0 -90.0160116,37.0495202,0 -89.62125,37.0520497,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Northwest Boundary</name>
+				<styleUrl>#poly-E65100-4201-0-nodesc</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-89.454994,37.4531882,0 -89.47138769999999,37.4673594,0 -89.4784258,37.47567,0 -89.48718049999999,37.4862954,0 -89.49301699999999,37.4946039,0 -89.4971369,37.5067246,0 -89.50245839999999,37.5170732,0 -89.5088099,37.5249699,0 -89.5159338,37.5343632,0 -89.5204828,37.5476342,0 -89.5221995,37.561175,0 -89.52125530000001,37.5822639,0 -89.52031119999999,37.5899497,0 -89.5162771,37.5992667,0 -89.5121573,37.6083106,0 -89.5091532,37.6188491,0 -89.5078657,37.6240838,0 -89.50966819999999,37.629794,0 -89.51284389999999,37.6330567,0 -89.5162771,37.6373389,0 -89.5167921,37.6438636,0 -89.5167466,37.6608007,0 -89.51640329999999,37.6654039,0 -89.51520619999999,37.672447,0 -89.5140475,37.6753172,0 -89.5128674,37.6783912,0 -89.51207340000001,37.6809216,0 -89.51206569999999,37.6837922,0 -90.0108049,37.6840132,0 -90.0134465,37.3647284,0 -89.7667549,37.3054914,0 -89.7207496,37.3865537,0 -89.7159431,37.3924184,0 -89.709935,37.3985555,0 -89.70100859999999,37.4036011,0 -89.68933560000001,37.4070101,0 -89.64985350000001,37.413555,0 -89.454994,37.4531882,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Northeast Boundary</name>
+				<styleUrl>#poly-E65100-4201-0-nodesc0</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-89.51206569999999,37.6837922,0 -89.51207340000001,37.6809216,0 -89.51520619999999,37.672447,0 -89.5164602,37.6652481,0 -89.5167466,37.6608007,0 -89.516825,37.643758,0 -89.5162771,37.6373389,0 -89.51284389999999,37.6330567,0 -89.50966819999999,37.629794,0 -89.5078657,37.6240838,0 -89.5121573,37.6083106,0 -89.52031119999999,37.5899497,0 -89.52125530000001,37.5822639,0 -89.5221995,37.561175,0 -89.5204828,37.5476342,0 -89.5159338,37.5343632,0 -89.50245839999999,37.5170732,0 -89.4971369,37.5067246,0 -89.49301699999999,37.4946039,0 -89.48718049999999,37.4862954,0 -89.4785874,37.4757515,0 -89.47138769999999,37.4673594,0 -89.4496963,37.4485876,0 -89.44131539999999,37.4389427,0 -89.4363372,37.4314459,0 -89.43273240000001,37.4232666,0 -89.4284408,37.4130413,0 -89.422776,37.3989963,0 -89.4208019,37.3929957,0 -89.4205444,37.3865854,0 -89.4220035,37.3807202,0 -89.15532760000001,37.3807202,0 -89.1549842,37.4218352,0 -89.15429760000001,37.4270156,0 -89.1529243,37.4321274,0 -89.1447704,37.4471884,0 -89.1287201,37.4746446,0 -89.12382770000001,37.4807068,0 -89.09138369999999,37.5143464,0 -89.0800541,37.5229241,0 -89.03278450000001,37.5558481,0 -89.03308490000001,37.5742856,0 -89.3222688,37.5742802,0 -89.3326114,37.542335,0 -89.334779,37.5396297,0 -89.3389205,37.5363799,0 -89.34643010000001,37.5309688,0 -89.354799,37.5264426,0 -89.3635963,37.5234132,0 -89.36694369999999,37.5227498,0 -89.3703769,37.5223586,0 -89.3893455,37.5223921,0 -89.4429897,37.5637013,0 -89.4409297,37.6828049,0 -89.51206569999999,37.6837922,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>East Boundary</name>
+				<styleUrl>#poly-E65100-4101-0-nodesc</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-89.4220035,37.3807202,0 -89.4254206,37.3674321,0 -89.4274805,37.3595188,0 -89.42954039999999,37.3538562,0 -89.4314511,37.3509503,0 -89.435292,37.3471635,0 -89.44039890000001,37.3432741,0 -89.4475872,37.3403398,0 -89.4524152,37.3393162,0 -89.4617922,37.338668,0 -89.4722421,37.3376955,0 -89.4775851,37.3368254,0 -89.4823057,37.3354435,0 -89.48543859999999,37.3336521,0 -89.48992320000001,37.3289089,0 -89.4934423,37.3250015,0 -89.49715449999999,37.3225272,0 -89.50193950000001,37.3196605,0 -89.50820520000001,37.3156161,0 -89.51108050000001,37.3125613,0 -89.5127542,37.3094552,0 -89.51387,37.3057345,0 -89.5153291,37.3013138,0 -89.5156295,37.2987535,0 -89.516402,37.2955102,0 -89.5175392,37.2925912,0 -89.5183332,37.2897745,0 -89.51841899999999,37.2860016,0 -89.5169384,37.2784554,0 -89.5094926,37.2730427,0 -89.5040209,37.2680737,0 -89.49809860000001,37.2614308,0 -89.4947512,37.2567684,0 -89.4913394,37.2510126,0 -89.4902451,37.2483993,0 -89.4887001,37.2452393,0 -89.48771309999999,37.241635,0 -89.48649,37.2374156,0 -89.1656919,37.1586954,0 -89.1645761,37.1606107,0 -89.16320279999999,37.1639624,0 -89.1626878,37.1659459,0 -89.15826749999999,37.1893343,0 -89.15796709999999,37.1918299,0 -89.1578384,37.1937786,0 -89.1574092,37.2263168,0 -89.15736630000001,37.2715462,0 -89.15532760000001,37.3807202,0 -89.4220035,37.3807202,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Southeast Boundary</name>
+				<styleUrl>#poly-E65100-4101-0-nodesc0</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-89.5577184,36.950111,0 -89.5342277,36.9500831,0 -89.4865401,36.9063385,0 -89.112393,36.9069669,0 -89.1090195,36.9205001,0 -89.1047207,36.9314268,0 -89.101715,36.9406675,0 -89.0997409,36.9488992,0 -89.0993118,36.9585017,0 -89.0990276,36.9616701,0 -89.0995693,36.9646741,0 -89.1010493,36.9672423,0 -89.1057806,36.9726276,0 -89.11078190000001,36.9779138,0 -89.1180409,36.9816303,0 -89.12291519999999,36.9828111,0 -89.12836540000001,36.9827768,0 -89.13792050000001,36.980067,0 -89.1481065,36.9778744,0 -89.15533000000001,36.9781193,0 -89.15987250000001,36.9785013,0 -89.1639852,36.9791772,0 -89.1678046,36.9806856,0 -89.1717529,36.9831882,0 -89.177246,36.9866848,0 -89.1815376,36.9895985,0 -89.1845039,36.9907542,0 -89.18911060000001,36.9920943,0 -89.1954636,36.9941146,0 -89.1977488,36.9953614,0 -89.1986608,36.9974993,0 -89.1992616,37.0016979,0 -89.2002916,37.0080038,0 -89.2009353,37.0107281,0 -89.2037033,37.0147204,0 -89.20724920000001,37.0184905,0 -89.2096256,37.0199118,0 -89.2130803,37.0217449,0 -89.2270707,37.0275695,0 -89.2347097,37.03264,0 -89.24088949999999,37.039149,0 -89.2465114,37.0488771,0 -89.2550945,37.0666858,0 -89.2623375,37.0875774,0 -89.24957980000001,37.1191632,0 -89.50765130000001,37.1790244,0 -89.5118999,37.1756734,0 -89.5170926,37.1720829,0 -89.5244,37.1679,0 -89.53275669999999,37.163978,0 -89.54035279999999,37.1614814,0 -89.5474,37.1596,0 -89.55513000000001,37.158171,0 -89.5588405,37.1576703,0 -89.5588922,36.9501339,0 -89.5577184,36.950111,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>Southwest Boundary</name>
+				<styleUrl>#msn_ylw-pushpin</styleUrl>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<tessellate>1</tessellate>
+							<coordinates>
+								-90.01761609999998,36.8672852,0 -89.8963818,36.8211779,0 -89.7167795,36.8391437,0 -89.6202459,36.8450038,0 -89.62125,37.0520497,0 -90.0160116,37.0495202,0 -90.01761609999998,36.8672852,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+		</Document>
+		<atom:link rel="app" href="https://www.google.com/earth/about/versions/#earth-pro" title="Google Earth Pro 7.3.6.10201"></atom:link>
+	</Folder>
+</Document>
+</kml>
