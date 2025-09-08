@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air-to-Air Comms</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">SEMO Pilots</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#download">Overlay</a></li>
+                    <li><a href="arrival-gates.html" class="active">Arrival Gates</a></li>
+                    <li><a href="air-to-air.html" class="active">Air-to-Air Comms</a></li>
+                    <li><a href="learning.html" class="active">New Students</a></li>
+                    <li class="theme-toggle">
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="light-icon">☀️</span>
+                            <span class="dark-icon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="procedures-content">
+            <div class="container">
+                <div class="procedure-item">
+                    <h3>122.75: The Standard Air-to-Air Frequency</h3>
+                    <div class="procedure-description">
+                        <p>I tune to 122.75 MHz whenever we're working in the practice area, and other instructors
+                            (& solo students) should do the same. But the comms between airplanes has historically been
+                            poor.</p>
+                        <br>
+                        <p>The first thing you need to know is <strong>where you are!</strong> I made the overlay
+                            specifically to assist with this, as those of you who are not from the area (and maybe some
+                            of you that are...) might not know what you're flying over.</p>
+                        <br>
+                        <p>The goal is <strong>not to continuously stare at the overlay</strong>, but instead to learn
+                            the landmarks and report your best estimated position to others so we can share the air.</p>
+                        <br>
+                        <p>Nobody expects to hear how many tenths of a mile you are from a town, so use your powers of
+                            reasoning to decide on distances, and above all else LOOK OUTSIDE TO REPORT!</p>
+                        <br>
+                        <p>If you're heading to a specific area to practice, call it out and claim it! If you want to
+                            divide an area, let others know you'll stay "east of X" or "south of Y."</p>
+                        <br>
+                        <h4>Example Calls:</h4>
+                        <ul>
+                            <li>"Academy traffic, 425DB is over Bell City at 3000, stalls, Academy"</li>
+                            <li>"Academy traffic, 381J south of Cape heading east of Benton for ground ref, Academy"
+                            </li>
+                            <li>"Academy traffic, 4202Q aproaching Daisy northbound. 172CG, are you on frequency?"</li>
+                        </ul>
+                        <br>
+                        <p>The goal is for us to understand each other's positions and intentions, and the former system
+                            of using a Direct To CGI and reporting mileage isn't helpful. Learn where you're training,
+                            and remember to <strong>look outside the airplane!</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SEMO Pilots Association. All content is for educational purposes only, check your NOTAMs!</p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        // Check for saved theme preference or default to light mode
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', savedTheme);
+        themeToggle.setAttribute('data-theme', savedTheme); // Set on toggle button too
+
+        // Update toggle button state
+        function updateToggleState() {
+            const currentTheme = body.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+            }
+            // Update toggle button data-theme for animation
+            themeToggle.setAttribute('data-theme', currentTheme);
+        }
+
+        // Toggle theme
+        function toggleTheme() {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            body.setAttribute('data-theme', newTheme);
+            themeToggle.setAttribute('data-theme', newTheme); // Update toggle button
+            localStorage.setItem('theme', newTheme);
+            updateToggleState();
+        }
+
+        // Event listeners
+        themeToggle.addEventListener('click', toggleTheme);
+
+        // Initialize theme state
+        updateToggleState();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGI Arrival Procedures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1 class="logo">SEMO Pilots</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#download">Overlay</a></li>
+                    <li><a href="arrival-gates.html" class="active">Arrival Gates</a></li>
+                    <li><a href="air-to-air.html" class="active">Air-to-Air Comms</a></li>
+                    <li><a href="learning.html" class="active">New Students</a></li>
+                    <li class="theme-toggle">
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <span class="light-icon">☀️</span>
+                            <span class="dark-icon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="info-section">
+            <div class="container">
+                <h3>WIP: Coming Soon!</h3>
+                <p>My plan is to make this a convenient landing page for new students to supplement their learning as
+                    they learn to fly alongside us.</p>
+                <p>My goal is to provide things like:</p>
+                <ul>
+                    <li>A condensed collection of all standard pilot training materials</li>
+                    <li>Additional FAA resources that complement these basic materials</li>
+                    <li>Deeper looks at things like aircraft systems, weather, and advanced aerodynamics</li>
+                    <li>Radio guidance: how to make communications feel natural</li>
+                    <li>A list of active airports with LiveATC coverage to supplement comms skills</li>
+                    <li>...</li>
+                </ul>
+                <p>I am open to suggestions for what else may be helpful, so please <a
+                        href="mailto:kylemhouseholder@gmail.com">reach out!</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 SEMO Pilots Association. All content is for educational purposes only, check your NOTAMs!</p>
+        </div>
+    </footer>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        body.setAttribute('data-theme', savedTheme);
+        themeToggle.setAttribute('data-theme', savedTheme);
+
+        function updateToggleState() {
+            const currentTheme = body.getAttribute('data-theme');
+            if (currentTheme === 'dark') {
+                body.classList.add('dark-mode');
+            } else {
+                body.classList.remove('dark-mode');
+            }
+            themeToggle.setAttribute('data-theme', currentTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            body.setAttribute('data-theme', newTheme);
+            themeToggle.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateToggleState();
+        }
+
+        themeToggle.addEventListener('click', toggleTheme);
+        updateToggleState();
+    </script>
+</body>
+
+</html>
