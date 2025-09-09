@@ -370,9 +370,9 @@ header {
 .step {
     display: flex;
     align-items: flex-start;
-    gap: var(--spacing-md);
-    margin-bottom: var(--spacing-md);
-    padding: var(--spacing-lg);
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm);
     background: var(--surface-color);
     border-radius: var(--border-radius-lg);
     box-shadow: 0 5px 15px var(--shadow-color);
@@ -402,13 +402,14 @@ header {
 
 .step-content h4 {
     color: var(--primary-color);
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: var(--spacing-xs);
     font-size: 1.0rem;
 }
 
 .step-content p {
     color: var(--text-muted);
-    line-height: 1.4;
+    line-height: 1.2;
+    font-size: 0.9rem;
 }
 
 .info-section {
@@ -435,7 +436,7 @@ header {
 
 .info-section ul {
     max-width: 700px;
-    margin: var(--spacing-md) auto;
+    margin: var(--spacing-sm) auto;
     list-style: none;
 }
 
@@ -453,7 +454,7 @@ header {
     font-weight: bold;
     position: absolute;
     left: 0;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
 }
 
 .procedures-hero {
