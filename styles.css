@@ -388,14 +388,14 @@ header {
 .step-number {
     background: var(--primary-color);
     color: white;
-    width: 44px;
-    height: 44px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     flex-shrink: 0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
@@ -403,12 +403,12 @@ header {
 .step-content h4 {
     color: var(--primary-color);
     margin-bottom: var(--spacing-sm);
-    font-size: 1.3rem;
+    font-size: 1.0rem;
 }
 
 .step-content p {
     color: var(--text-muted);
-    line-height: 1.7;
+    line-height: 1.4;
 }
 
 .info-section {
