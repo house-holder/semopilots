@@ -279,25 +279,25 @@ header {
 }
 
 .download-section {
-    padding: var(--spacing-xxl) 0;
+    padding: var(--spacing-sm) 0;
     background: var(--surface-color);
 }
 
 .download-section h3 {
     text-align: center;
     font-size: clamp(2rem, 4vw, 2.5rem);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-sm);
     color: var(--primary-color);
 }
 
 .file-card {
     background: var(--background-color);
     border-radius: var(--border-radius-lg);
-    padding: var(--spacing-xl);
+    padding: var(--spacing-md);
     box-shadow: 0 10px 30px var(--shadow-color);
     display: flex;
     align-items: center;
-    gap: var(--spacing-xl);
+    gap: var(--spacing-md);
     max-width: 700px;
     margin: 0 auto;
     border: 1px solid var(--border-color);
@@ -334,7 +334,7 @@ header {
 .download-btn {
     background: var(--primary-color);
     color: white;
-    padding: var(--spacing-md) var(--spacing-lg);
+    padding: var(--spacing-sm) var(--spacing-md);
     text-decoration: none;
     border-radius: var(--border-radius);
     font-weight: 600;
@@ -351,14 +351,14 @@ header {
 }
 
 .instructions-section {
-    padding: var(--spacing-xxl) 0;
+    padding: var(--spacing-md) 0;
     background: var(--background-color);
 }
 
 .instructions-section h3 {
     text-align: center;
     font-size: clamp(2rem, 4vw, 2.5rem);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
     color: var(--primary-color);
 }
 
@@ -371,7 +371,7 @@ header {
     display: flex;
     align-items: flex-start;
     gap: var(--spacing-md);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
     padding: var(--spacing-lg);
     background: var(--surface-color);
     border-radius: var(--border-radius-lg);
@@ -412,14 +412,14 @@ header {
 }
 
 .info-section {
-    padding: var(--spacing-lg) 0;
+    padding: var(--spacing-md) 0;
     background: var(--surface-color);
 }
 
 .info-section h3 {
     text-align: center;
     font-size: clamp(2rem, 4vw, 2.5rem);
-    margin-bottom: var(--spacing-lg);
+    margin-bottom: var(--spacing-md);
     color: var(--primary-color);
 }
 
@@ -435,7 +435,7 @@ header {
 
 .info-section ul {
     max-width: 700px;
-    margin: var(--spacing-xl) auto;
+    margin: var(--spacing-md) auto;
     list-style: none;
 }
 
@@ -460,7 +460,7 @@ header {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
     text-align: center;
-    padding: var(--spacing-xxl) var(--spacing-md);
+    padding: var(--spacing-sm) var(--spacing-md);
 }
 
 .procedures-hero h2 {
