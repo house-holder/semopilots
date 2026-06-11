@@ -60,7 +60,7 @@ body {
 }
 
 a {
-	color: var(--primary-color);
+	color: var(--accent-color);
 	text-decoration: none;
 	transition: var(--transition);
 }
@@ -71,7 +71,7 @@ a:hover {
 }
 
 a:visited {
-	color: var(--primary-color);
+	color: var(--accent-color);
 }
 
 [data-theme="dark"] a {
