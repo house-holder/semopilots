@@ -43,7 +43,31 @@ function initTheme() {
 function initNav() {
 	const navToggle = document.querySelector('.nav-toggle');
 	const navLinks = document.querySelector('.nav-links');
-	if (!navToggle || !navLinks) return;
+	const navParent = document.querySelector('nav');
+	if (!navToggle || !navLinks || !navParent) return;
+
+	function checkNavOverflow() {
+		const clone = navLinks.cloneNode(true);
+		clone.style.cssText = 'display:flex; visibility:hidden; position:fixed; top:0; left:0; pointer-events:none;';
+		document.body.appendChild(clone);
+		const overflowing = clone.scrollWidth > navParent.offsetWidth - 20;
+		document.body.removeChild(clone);
+
+		if (overflowing) {
+			navParent.classList.add('nav-overflow');
+		} else {
+			navParent.classList.remove('nav-overflow');
+			navLinks.classList.remove('nav-open');
+		}
+	}
+
+	let resizeTimer;
+	window.addEventListener('resize', () => {
+		clearTimeout(resizeTimer);
+		resizeTimer = setTimeout(checkNavOverflow, 50);
+	});
+
+	requestAnimationFrame(checkNavOverflow);
 
 	navToggle.addEventListener('click', () => {
 		navLinks.classList.toggle('nav-open');
