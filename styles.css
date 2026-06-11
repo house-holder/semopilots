@@ -59,7 +59,6 @@ body {
 	transition: var(--transition);
 }
 
-
 a {
 	color: var(--primary-color);
 	text-decoration: none;
@@ -93,6 +92,8 @@ a:visited {
 	padding: 0 var(--spacing-md);
 }
 
+/* NAV ====================================================================== */
+
 header {
 	background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
 	box-shadow: 0 2px 10px var(--shadow-color);
@@ -100,6 +101,10 @@ header {
 	top: 0;
 	z-index: 1000;
 	transition: var(--transition);
+}
+
+.nav-toggle {
+	display: none;
 }
 
 .nav-container {
@@ -112,28 +117,49 @@ header {
 	min-height: 70px;
 }
 
+.nav-left {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
 .logo {
+	flex: 1;
 	color: white;
 	font-size: 1.8rem;
 	font-weight: 700;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+	text-align: center;
+	white-space: nowrap;
+}
+
+.nav-right {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: var(--spacing-sm);
 }
 
 .nav-links {
 	display: flex;
 	list-style: none;
-	gap: var(--spacing-md);
-	align-items: center;
+	justify-content: center;
+	gap: var(--spacing-sm);
+	padding: var(--spacing-xs) var(--spacing-md);
+	background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
+	margin: 0;
 }
 
 .nav-links a {
 	color: white !important;
 	text-decoration: none;
 	font-weight: 500;
-	padding: var(--spacing-sm) var(--spacing-md);
+	padding: var(--spacing-xs) var(--spacing-sm);
 	border-radius: var(--border-radius);
 	transition: var(--transition);
 	white-space: nowrap;
+	font-size: 0.95rem;
 }
 
 .nav-links a:visited {
@@ -143,7 +169,6 @@ header {
 .nav-links a:hover,
 .nav-links a.active {
 	background-color: rgba(255, 255, 255, 0.2);
-	transform: translateY(-2px);
 }
 
 .theme-toggle {
@@ -199,6 +224,8 @@ header {
 	box-shadow: 0 0 0 3px var(--accent-color);
 }
 
+/* HERO ===================================================================== */
+
 .hero {
 	position: relative;
 	color: white;
@@ -209,6 +236,19 @@ header {
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+}
+
+.hero a {
+	color: white;
+}
+
+.hero a:visited {
+	color: white;
+}
+
+.hero a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
 }
 
 .hero-background {
@@ -277,6 +317,12 @@ header {
 	background: var(--secondary-color);
 	color: white;
 }
+
+.cta-button:visited {
+	color: white;
+}
+
+/* DOWNLOAD ================================================================= */
 
 .download-section {
 	padding: var(--spacing-sm) 0;
@@ -350,6 +396,8 @@ header {
 	transform: translateY(-2px);
 }
 
+/* INSTRUCTIONS ============================================================= */
+
 .instructions-section {
 	padding: var(--spacing-md) 0;
 	background: var(--background-color);
@@ -412,6 +460,8 @@ header {
 	font-size: 0.9rem;
 }
 
+/* INFO ===================================================================== */
+
 .info-section {
 	padding: var(--spacing-md) 0;
 	background: var(--surface-color);
@@ -424,10 +474,17 @@ header {
 	color: var(--primary-color);
 }
 
+.info-section h4 {
+	text-align: center;
+	font-size: clamp(1.5rem, 4vw, 2.5rem);
+	margin-bottom: var(--spacing-md);
+	color: var(--primary-color);
+}
+
 .info-section p {
 	text-align: center;
 	margin-bottom: var(--spacing-md);
-	font-size: 1.1rem;
+	font-size: 0.9rem;
 	color: var(--text-muted);
 	max-width: 800px;
 	margin-left: auto;
@@ -456,6 +513,8 @@ header {
 	left: 0;
 	font-size: 1.0rem;
 }
+
+/* PROCEDURES =============================================================== */
 
 .procedures-hero {
 	background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
@@ -509,18 +568,6 @@ header {
 	cursor: pointer;
 }
 
-@media (max-width: 768px) {
-	.procedure-img {
-		width: 100%;
-	}
-}
-
-@media (max-width: 480px) {
-	.procedure-img {
-		width: 100%;
-	}
-}
-
 .placeholder-image {
 	background: var(--background-color);
 	border: 2px dashed var(--border-color);
@@ -567,32 +614,7 @@ header {
 	left: 0;
 }
 
-a {
-	color: var(--primary-color);
-	text-decoration: none;
-	transition: var(--transition);
-}
-
-a:hover {
-	color: var(--secondary-color);
-	text-decoration: underline;
-}
-
-a:visited {
-	color: var(--primary-color);
-}
-
-[data-theme="dark"] a {
-	color: #FF6B6B;
-}
-
-[data-theme="dark"] a:hover {
-	color: #FF8E8E;
-}
-
-[data-theme="dark"] a:visited {
-	color: #B8B8B8;
-}
+/* FOOTER =================================================================== */
 
 footer {
 	background: var(--primary-color);
@@ -601,28 +623,37 @@ footer {
 	padding: var(--spacing-xl) 0;
 }
 
+/* MEDIA QUERIES ============================================================ */
+
 @media (max-width: 768px) {
-	.nav-container {
-		flex-direction: column;
-		gap: var(--spacing-xs);
+	.nav-toggle {
+		display: flex;
+		background: none;
+		border: none;
+		color: white;
+		font-size: 1.8rem;
+		cursor: pointer;
 		padding: var(--spacing-xs);
-		min-height: auto;
+		line-height: 1;
 	}
 
 	.nav-links {
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: var(--spacing-xs);
+		display: none;
+		flex-direction: column;
+		gap: 0;
+		padding: 0;
+	}
+
+	.nav-links.nav-open {
+		display: flex;
 	}
 
 	.nav-links a {
-		padding: var(--spacing-xs) var(--spacing-sm);
-		font-size: 0.9rem;
-	}
-
-	.logo {
-		font-size: 1.5rem;
-		margin-bottom: var(--spacing-xs);
+		display: block;
+		width: 100%;
+		padding: var(--spacing-sm) var(--spacing-md);
+		border-radius: 0;
+		border-bottom: none;
 	}
 
 	.hero {
@@ -672,9 +703,9 @@ footer {
 	}
 
 	.step {
-		flex-direction: column;
-		text-align: center;
-		gap: var(--spacing-md);
+		flex-direction: row;
+		text-align: left;
+		gap: var(--spacing-sm);
 	}
 
 	.container {
@@ -739,8 +770,7 @@ footer {
 }
 
 @media print {
-
-	.theme-toggle,
+	.nav-toggle,
 	.nav-links {
 		display: none;
 	}

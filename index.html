@@ -1,233 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>SEMO Pilots</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEMO Pilots</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+	<body>
+		<div id="nav-placeholder"></div>
 
-<body>
-    <header>
-        <nav>
-            <div class="nav-container">
-                <h1 class="logo">SEMO Pilots</h1>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html#download">Overlay</a></li>
-                    <li><a href="arrival-gates.html">Arrival Gates</a></li>
-                    <li><a href="air-to-air.html">Air-to-Air</a></li>
-                    <li><a href="learning.html">New Students</a></li>
-                    <li class="theme-toggle">
-                        <button id="theme-toggle" aria-label="Toggle dark mode">
-                            <span class="light-icon">☀️</span>
-                            <span class="dark-icon">🌙</span>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section class="hero">
-            <div class="hero-background">
-                <img src="assets/cgieastramp.jpg" alt="Historic CGI East Ramp Hangars" class="hero-image">
-                <div class="hero-overlay"></div>
-            </div>
-            <div class="hero-content">
-                <h2>ForeFlight Overlay</h2>
-                <p>Download the latest overlay for SEMO Pilots using ForeFlight</p>
-                <a href="#download" class="cta-button">Get Latest Version</a>
-            </div>
-        </section>
+		<main>
+			<section class="hero">
+				<div class="hero-background">
+					<img src="assets/cgieastramp.jpg"
+					alt="Historic CGI East Ramp Hangars"
+					class="hero-image">
+					<div class="hero-overlay"></div>
+				</div>
+				<div class="hero-content">
+					<br>
+				</div>
+			</section>
 
-        <section class="info-section">
-            <div class="container">
-                <h3>About This Overlay</h3>
-                <p>This KML file contains helpful guidance for our local practice area procedures, including:</p>
-                <ul>
-                    <li>Five tower-approved airport arrival gates</li>
-                    <li>Our local practice area boundaries</li>
-                    <li>Visually distinct air-to-air reporting points</li>
-                    <li>Airstrips and helipads not depicted on the FAA Charts</li>
-                </ul>
-                <p>Visit the <a href="arrival-gates.html">Arrival Gates</a> page to learn more about how we use
-                    this overlay in our local area.</p>
-            </div>
-        </section>
+			<section class="info-section">
+				<div class="container">
+					<h4>College Flight Program</h4>
+					<p>
+					Southeast Missouri State University's flight training program has
+					brought a lot of new aviators to an already-busy regional airport.
+					</p>
+					<p>
+					The goal of this site is to provide a collection of useful info for
+					all students, instructors, and locals alike.
+					</p>
+					<br><br>
+				</div>
 
-        <section id="download" class="download-section">
-            <div class="container">
-                <div class="file-info">
-                    <div class="file-card">
-                        <div class="file-icon">📁</div>
-                        <div class="file-details">
-                            <h4>CGI Overlay v3.kml</h4>
-                            <p class="version">Version: <strong>3</strong></p>
-                            <p class="updated">Last Updated: 08 SEP 2025</p>
-                            <p class="size">File Size: 62.0 KB</p>
-                        </div>
-                        <a href="files/CGI%20Overlay%20v3.kml" class="download-btn" download>
-                            Download Overlay
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
+				<div class="container">
+					<h4>Resources</h4>
+					<ul>
+						<li><a href="learning.html">New Students</a> — Welcome to SEMO!</li>
+						<li><a href="overlay.html">ForeFlight Overlay</a> — Helpful placemarkers</li>
+						<li><a href="arrival-gates.html">Arrival Gates</a> — Local tower agreement</li>
+						<li><a href="air-to-air.html">Air-to-Air Comms</a> — Talk to us</li>
+					</ul>
+				</div>
+			</section>
+		</main>
 
-        <section class="info-section">
-            <div class="container">
-                <div class="file-info">
-                    <p>If you want a two-layer overlay with toggleable air-to-air
-							reporting points, <a href="#multi-layer">click here.</a></p>
-                </div>
-            </div>
-        </section>
-
-        <section id="instructions" class="instructions-section">
-            <div class="container" text-align="center">
-                <h3>Adding to ForeFlight</h3>
-                <div class="instruction-steps">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Download the overlay</h4>
-                            <p>Click the download button above to save the file to your device.</p>
-                            <p>Save locally to "Files" on Apple devices.</p>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Import to ForeFlight</h4>
-                            <li>Select the "Open in..." option after download</li>
-                            <li>Select the ForeFlight app from the Open In list</li>
-                            <li>Save the file to: "Custom Content," then "Custom Map Layers"</li>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Enable the Overlay</h4>
-                            <li>On your main Map display, tap the upper left layer icon</li>
-                            <li>Scroll down to find the overlay near the bottom and select it</li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="instructions" class="instructions-section">
-            <div class="container" text-align="center">
-                <h3>Cleaning up old versions</h3>
-                <div class="instruction-steps">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <div class="step-content">
-                            <h4>Open ForeFlight, select "More" in the bottom right corner</h4>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <div class="step-content">
-                            <h4>Select "Custom Content" then "Custom Map Layers"</h4>
-                        </div>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <div class="step-content">
-                            <h4>Swipe left or use Edit to delete any unneeded overlays</h4>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="info-section" id="multi-layer">
-            <div class="container">
-                <h3>Multiple Layers</h3>
-                <p>If you want to toggle the air-to-air reporting points, this makes it
-                    possible. However: You should know what's in our practice areas! If I
-                    hear you reporting nonsense like "18 miles southeast of Cape," I will
-                    find you and toggle the points on myself.</p>
-            </div>
-        </section>
-        <section id="multi-layer-download" class="download-section">
-            <div class="container" text-align="center">
-                <div class="file-info">
-                    <div class="file-card">
-                        <div class="file-icon">📁</div>
-                        <div class="file-details">
-                            <h4>practiceAreas-v3.kml</h4>
-                            <p class="version">Version: <strong>3</strong></p>
-                            <p class="updated">Last Updated: 08 SEP 2025</p>
-                            <p class="size">File Size: 18 KB</p>
-                        </div>
-                        <a href="files/practiceAreas-v3.kml" class="download-btn" download>
-                            Area Boundaries & Arrival Gates
-                        </a>
-                    </div>
-                    <div class="file-card">
-                        <div class="file-icon">📁</div>
-                        <div class="file-details">
-                            <h4>airToAir-v3.kml</h4>
-                            <p class="version">Version: <strong>3</strong></p>
-                            <p class="updated">Last Updated: 08 SEP 2025</p>
-                            <p class="size">File Size: 36 KB</p>
-                        </div>
-                        <a href="files/airToAir-v3.kml" class="download-btn" download>
-                            Air-to-Air Reporting Points
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="info-section">
-            <div class="container">
-                <h3>Importing to ForeFlight</h3>
-                <p>The instructions are the same as <a href="#instructions">above,</a><br>
-                    just repeat it for these two files and enable them as needed.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 SEMO Pilots - Disclaimer: Check your NOTAMs!</p>
-        </div>
-    </footer>
-
-    <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const body = document.body;
-
-        const savedTheme = localStorage.getItem('theme') || 'light';
-        body.setAttribute('data-theme', savedTheme);
-        themeToggle.setAttribute('data-theme', savedTheme);
-
-        function updateToggleState() {
-            const currentTheme = body.getAttribute('data-theme');
-            if (currentTheme === 'dark') {
-                body.classList.add('dark-mode');
-            } else {
-                body.classList.remove('dark-mode');
-            }
-            themeToggle.setAttribute('data-theme', currentTheme);
-        }
-
-        function toggleTheme() {
-            const currentTheme = body.getAttribute('data-theme');
-            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-            body.setAttribute('data-theme', newTheme);
-            themeToggle.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-            updateToggleState();
-        }
-
-        themeToggle.addEventListener('click', toggleTheme);
-        updateToggleState();
-    </script>
-</body>
-
+		<div id="footer-placeholder"></div>
+		<script src="/components.js"></script>
+	</body>
 </html>

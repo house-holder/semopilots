@@ -1,102 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Air-to-Air Comms</title>
+		<link rel="stylesheet" href="styles.css">
+		<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+	</head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Air-to-Air Comms</title>
-	<link rel="stylesheet" href="styles.css">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+	<body>
+		<div id="nav-placeholder"></div>
 
-<body>
-	<header>
-		<nav>
-			<div class="nav-container">
-				<h1 class="logo">SEMO Pilots</h1>
-				<ul class="nav-links">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="index.html#download">Overlay</a></li>
-					<li><a href="arrival-gates.html">Arrival Gates</a></li>
-					<li><a href="air-to-air.html" class="active">Air-to-Air</a></li>
-					<li><a href="learning.html">New Students</a></li>
-					<li class="theme-toggle">
-						<button id="theme-toggle" aria-label="Toggle dark mode">
-							<span class="light-icon">☀️</span>
-							<span class="dark-icon">🌙</span>
-						</button>
-						</li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+		<main>
+			<section class="hero">
+				<div class="hero-background">
+					<img src="assets/cgieastramp.jpg"
+					alt="Historic CGI East Ramp Hangars"
+					class="hero-image">
+					<div class="hero-overlay"></div>
+				</div>
+				<div class="hero-content">
+					<h1>122.75</h1>
+					<h1>Air-to-Air Frequency</h1>
+					<br>
+				</div>
+			</section>
 
-	<main>
-		<section class="procedures-content">
-			<div class="container">
-				<div class="procedure-item">
-					<h3>122.75: The Standard Air-to-Air Frequency</h3>
-					<div class="procedure-description">
-							<p>I tune this frequency whenever we're working in the practice area. Other instructors and any solo students should be doing the same. But the comms between airplanes has historically been weak, and was based on a GPS distance to Cape instead of simply using your eyes.</p>
-							<br>
-							<p>To report on air-to-air, you have to <strong>know where you are.</strong> I made the overlay specifically to assist with this, as those of you who are not from here (and maybe some of you that are) might not know much about what you're flying over.</p>
-							<br>
-							<p><strong>But the goal is not to stare at an overlay.</strong> Instead, learn the local landmarks and report the best estimate of your position by looking outside.</p>
-							<br>
-							<p>Nobody wants to hear how many tenths of a mile you are from something,so use your powers of reasoning to estimate your distance from a landmark. If you're heading to a specific area to practice, call it/claim it. If you want to split an area with others, let them know you'll stay "east of X" or "south of Y..." <strong>Use your head.</strong></p>
-							<br><br>
-							<h4>Example Calls:</h4>
+			<section class="procedures-content">
+				<div class="container">
+					<div class="procedure-item">
+						<div class="procedure-description">
+							<h3>
+								...what about 1-2-3-4-5?
+							</h3>
+							<p>
+							The FAA has an agreement with the FCC to regulate the radio waves
+							we use on a daily basis. The decision was made years ago
+							(ref <a href="https://www.faa.gov/documentLibrary/media/Advisory_Circular/AC_90-50D.pdf">AC 90-50D</a>) that 122.75 should be an aircraft air-to-air
+							frequency. If you're thinking of using "fingers", don't - it's in
+							the reserved band for flight testing, and you could be interfering.
+							</p><br><p>
+							I tune <b>122.75</b> whenever we're working in the practice area.
+							Other instructors and any solo students should be doing the same.
+							You can even use this on solo flights to talk to a friend or ask
+							a friendly CFI what they think about the weather.
+							</p><br>
+							<h3>
+								Practice Area Ops
+							</h3>
+							<p>
+							To report on air-to-air, you must first <b>know where you are.</b>
+							I made the overlay to help you with this, because I know a lot of
+							our students are not from the local area.
+							</p><br><p>
+							<b><u>But the goal is not to stare at Foreflight!</u></b> Instead,
+							learn the local landmarks and report an estimate of your position
+							by looking outside. <i>Hint: Runways are near a "mile" long.</i>
+							</p><br><p>
+							Nobody wants to hear how many tenths of a mile you are from
+							something, so use your powers of reasoning to estimate your
+							distance from a landmark - and stop letting Garmin hold your hand.
+							</p><br><p>
+							If you're heading to a specific area to practice, call it/claim
+							it. If you want to split an area with others, let them know you'll
+							stay "east of X" or "south of Y..." <b>Use your head.</b>
+							</p><br><br>
+							<h4>
+								Example Calls:
+							</h4>
 							<ul>
-								<li>"Academy traffic, 425DB is over Bell City at 3000, stalls, Academy"</li>
-								<li>"Academy traffic, 381J south of Cape heading east of Benton for ground ref, Academy"
+								<li>
+									"Academy traffic, Goldwing Twenty-Six Bravo is over Bell
+									City at 3500, steep turns, Academy"
 								</li>
-								<li>"Academy traffic, 4202Q aproaching Daisy northbound. 172CG, are you up on Academy?"</li>
+								<li>
+									"Academy traffic, Goldwing Thirty Bravo south of Cape
+									heading east of Benton for ground ref maneuvers, Academy"
+								</li>
+								<li>
+									"Academy traffic, Goldwing Fifty-Five Bravo aproaching Daisy
+									northbound. Goldwing Nine Alpha Bravo, are you on frequency?"
+								</li>
+								<li>
+									"Academy traffic, Goldwing Twenty Six Bravo leaving Cape for
+									Bird Hill, 3500 and above for airwork.
+								</li>
 							</ul>
 							<br>
-							<p>The goal is for us to understand each other's positions and intentions, and the former system of using a Direct To CGI and reporting mileage isn't very helpful. Learn where you're training, and always remember to <strong>look outside the airplane!</strong></p>
+							<p>
+							The goal is to understand each other's positions and intentions.
+							Speak plainly on air-to-air. Just remember: <b>look outside!</b>
+							</p><br>
+							<h2>
+							The Mk.II human eyeball may save your life.
+							</h2>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
-	</main>
+			</section>
+		</main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 SEMO Pilots Association. All content is for educational purposes only, check your NOTAMs!</p>
-        </div>
-    </footer>
-
-	<script>
-		const themeToggle = document.getElementById('theme-toggle');
-		const body = document.body;
-
-		const savedTheme = localStorage.getItem('theme') || 'light';
-		body.setAttribute('data-theme', savedTheme);
-		themeToggle.setAttribute('data-theme', savedTheme);
-
-		function updateToggleState() {
-			const currentTheme = body.getAttribute('data-theme');
-			if (currentTheme === 'dark') {
-					body.classList.add('dark-mode');
-			} else {
-					body.classList.remove('dark-mode');
-			}
-			themeToggle.setAttribute('data-theme', currentTheme);
-		}
-
-		function toggleTheme() {
-			const currentTheme = body.getAttribute('data-theme');
-			const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-
-			body.setAttribute('data-theme', newTheme);
-			themeToggle.setAttribute('data-theme', newTheme);
-			localStorage.setItem('theme', newTheme);
-			updateToggleState();
-		}
-
-		themeToggle.addEventListener('click', toggleTheme);
-		updateToggleState();
-	</script>
-</body>
+		<div id="footer-placeholder"></div>
+		<script src="/components.js"></script>
+	</body>
 
 </html>
