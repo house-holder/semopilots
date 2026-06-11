@@ -103,6 +103,10 @@ header {
 	transition: var(--transition);
 }
 
+nav {
+	overflow: hidden;
+}
+
 .nav-toggle {
 	display: none;
 }
@@ -147,7 +151,7 @@ header {
 	justify-content: center;
 	flex-wrap: nowrap;
 	gap: clamp(0.25rem, 1vw, 1rem);
-	padding: var(--spacing-xs) var(--spacing-md);
+	padding: var(--spacing-xs) 0;
 	background: linear-gradient(135deg, var(--secondary-color) 0%, var(--primary-color) 100%);
 	margin: 0;
 }
