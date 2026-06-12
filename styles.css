@@ -398,6 +398,10 @@ nav.nav-overflow .nav-links li {
 	color: var(--primary-color);
 }
 
+.download-section p {
+	text-align: center;
+}
+
 .file-info {
 	justify-content: center;
 	align-items: center;
