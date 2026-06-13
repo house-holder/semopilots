@@ -384,6 +384,85 @@ nav.nav-overflow .nav-links li {
 	color: white;
 }
 
+/* LEARN NAV ================================================================= */
+
+.learn-nav {
+	max-width: 700px;
+	margin: var(--spacing-lg) auto;
+	border-radius: var(--border-radius-lg);
+	overflow: hidden;
+	border: 1px solid var(--border-color);
+	background: var(--surface-color);
+}
+
+.learn-nav-toggle {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: var(--spacing-md) var(--spacing-lg);
+	background: var(--surface-color);
+	border: none;
+	cursor: pointer;
+	font-family: var(--font-family);
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: var(--text-color);
+	transition: background 0.2s ease;
+}
+
+.learn-nav-toggle:hover {
+	background: var(--background-color);
+}
+
+.learn-nav-prompt {
+	text-align: left;
+}
+
+.learn-nav-icon {
+	transition: transform 0.3s ease;
+	font-size: 0.7rem;
+	flex-shrink: 0;
+}
+
+.learn-nav.open .learn-nav-icon {
+	transform: rotate(180deg);
+}
+
+.learn-nav-menu {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.35s ease;
+}
+
+.learn-nav.open .learn-nav-menu {
+	max-height: 500px;
+}
+
+.learn-nav-link {
+	display: block;
+	padding: var(--spacing-sm) var(--spacing-lg);
+	padding-left: calc(var(--spacing-lg) + 22px);
+	color: var(--text-muted);
+	text-decoration: none;
+	border-top: 1px solid var(--border-color);
+	transition: background 0.2s ease, color 0.2s ease;
+	position: relative;
+}
+
+.learn-nav-link:before {
+	content: "\2192";
+	color: var(--accent-color);
+	font-weight: bold;
+	position: absolute;
+	left: var(--spacing-lg);
+}
+
+.learn-nav-link:hover {
+	background: var(--background-color);
+	color: var(--primary-color);
+}
+
 /* DOWNLOAD ================================================================= */
 
 .download-section {
@@ -544,15 +623,15 @@ nav.nav-overflow .nav-links li {
 
 .info-section h3 {
 	text-align: center;
-	font-size: clamp(2rem, 4vw, 2.5rem);
-	margin-bottom: var(--spacing-md);
+	font-size: clamp(2rem, 3vw, 2.5rem);
+	margin-bottom: var(--spacing-sm);
 	color: var(--primary-color);
 }
 
 .info-section h4 {
 	text-align: center;
-	font-size: clamp(1.0rem, 4vw, 1.5rem);
-	margin-bottom: var(--spacing-md);
+	font-size: clamp(1.5rem, 4vw, 1.9rem);
+	margin-bottom: var(--spacing-xs);
 	color: var(--primary-color);
 }
 
@@ -566,6 +645,12 @@ nav.nav-overflow .nav-links li {
 	margin-right: auto;
 }
 
+.info-section ol {
+	max-width: 700px;
+	list-style-position: inside;
+	margin: var(--spacing-sm) auto;
+}
+
 .info-section ul {
 	max-width: 700px;
 	margin: var(--spacing-sm) auto;
@@ -573,14 +658,15 @@ nav.nav-overflow .nav-links li {
 }
 
 .info-section li {
-	padding: var(--spacing-sm) 0;
+	padding: var(--spacing-xs) 0;
+	font-size: 0.9rem;
 	border-bottom: 1px solid var(--border-color);
 	position: relative;
-	padding-left: 30px;
+	padding-left: 25px;
 	color: var(--text-muted);
 }
 
-.info-section li:before {
+.info-section ul li:before {
 	content: "→";
 	color: var(--accent-color);
 	font-weight: bold;

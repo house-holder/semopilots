@@ -7,11 +7,13 @@ async function loadComponent(selector, file) {
 }
 
 async function initComponents() {
-	await loadComponent('#nav-module', '/modules/nav.html');
 	await loadComponent('#hero-module', '/modules/hero.html');
+	await loadComponent('#nav-module', '/modules/main-nav.html');
+	await loadComponent('#learn-nav-module', '/modules/learn-nav.html');
 	await loadComponent('#footer-module', '/modules/footer.html');
 	initTheme();
 	initNav();
+	initLearnNav();
 }
 
 function initTheme() {
@@ -78,6 +80,17 @@ function initNav() {
 		link.addEventListener('click', () => {
 			navLinks.classList.remove('nav-open');
 		});
+	});
+}
+
+function initLearnNav() {
+	const learnNav = document.querySelector('.learn-nav');
+	if (!learnNav) return;
+	const toggle = learnNav.querySelector('.learn-nav-toggle');
+	if (!toggle) return;
+	toggle.addEventListener('click', () => {
+		learnNav.classList.toggle('open');
+		toggle.setAttribute('aria-expanded', learnNav.classList.contains('open'));
 	});
 }
 
