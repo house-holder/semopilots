@@ -92,6 +92,13 @@ function initLearnNav() {
 		learnNav.classList.toggle('open');
 		toggle.setAttribute('aria-expanded', learnNav.classList.contains('open'));
 	});
+	learnNav.querySelectorAll('.learn-nav-sub-toggle').forEach(btn => {
+		btn.addEventListener('click', () => {
+			const sub = btn.closest('.learn-nav-sub');
+			sub.classList.toggle('open');
+			btn.setAttribute('aria-expanded', sub.classList.contains('open'));
+		});
+	});
 }
 
 initComponents();
