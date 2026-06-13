@@ -7,8 +7,9 @@ async function loadComponent(selector, file) {
 }
 
 async function initComponents() {
-	await loadComponent('#nav-placeholder', '/nav.html');
-	await loadComponent('#footer-placeholder', '/footer.html');
+	await loadComponent('#nav-module', '/modules/nav.html');
+	await loadComponent('#hero-module', '/modules/hero.html');
+	await loadComponent('#footer-module', '/modules/footer.html');
 	initTheme();
 	initNav();
 }
