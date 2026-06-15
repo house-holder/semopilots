@@ -385,8 +385,6 @@ nav.nav-overflow .nav-links li {
 }
 
 /* LEARN NAV ================================================================= */
-/* Accordin-style expandable navigation for the /learn/ section.
-   Matches the info-section grey theme. Collapsed by default. */
 .learn-nav {
 	max-width: 480px;
 	margin: var(--spacing-sm) auto;
@@ -396,7 +394,6 @@ nav.nav-overflow .nav-links li {
 	background: var(--surface-color);
 }
 
-/* Top-level toggle button — always visible, spans full width */
 .learn-nav-toggle {
 	width: 100%;
 	display: flex;
@@ -421,7 +418,6 @@ nav.nav-overflow .nav-links li {
 	text-align: left;
 }
 
-/* Chevron icon shared by both the main toggle and sub-toggles */
 .learn-nav-icon {
 	transition: transform 0.15s ease;
 	font-size: 0.9rem;
@@ -432,7 +428,6 @@ nav.nav-overflow .nav-links li {
 	transform: rotate(180deg);
 }
 
-/* Collapsible wrapper for the list of topics */
 .learn-nav-menu {
 	max-height: 0;
 	overflow: hidden;
@@ -443,7 +438,6 @@ nav.nav-overflow .nav-links li {
 	max-height: 500px;
 }
 
-/* Top-level topic links inside the expanded menu */
 .learn-nav-link {
 	display: block;
 	padding: var(--spacing-xs) var(--spacing-md);
@@ -459,7 +453,6 @@ nav.nav-overflow .nav-links li {
 	color: var(--primary-color);
 }
 
-/* Sub-section toggle (e.g. Aircraft Systems) — looks like a link but expands children */
 .learn-nav-sub-toggle {
 	width: 100%;
 	display: flex;
@@ -481,7 +474,6 @@ nav.nav-overflow .nav-links li {
 	color: var(--primary-color);
 }
 
-/* Smaller chevron for sub-nav items */
 .learn-nav-sub .learn-nav-icon {
 	font-size: 0.65rem;
 	transition: transform 0.15s ease;
@@ -491,7 +483,6 @@ nav.nav-overflow .nav-links li {
 	transform: rotate(180deg);
 }
 
-/* Collapsible wrapper for sub-section children */
 .learn-nav-submenu {
 	max-height: 0;
 	overflow: hidden;
@@ -502,7 +493,6 @@ nav.nav-overflow .nav-links li {
 	max-height: 500px;
 }
 
-/* Sub-section child links — indented, with a left accent bar */
 .learn-nav-sub .learn-nav-link {
 	padding-left: calc(var(--spacing-lg) + 0.5rem);
 	font-size: 0.85rem;
@@ -511,16 +501,18 @@ nav.nav-overflow .nav-links li {
 	padding-right: var(--spacing-sm);
 }
 
-/* Responsive images used in learning pages — full width on mobile, capped on desktop */
-.learn-gif {
+.learn-img {
 	max-width: min(100%, 600px);
 	height: auto;
 	display: block;
 	margin: var(--spacing-md) auto;
 }
 
-/* DOWNLOAD ================================================================= */
+.img-container {
+	display: flex;
+}
 
+/* DOWNLOAD ================================================================= */
 .download-section {
 	padding: var(--spacing-sm) 0;
 	background: var(--surface-color);
