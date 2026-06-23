@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>EFI Engines</title>
+		<link rel="stylesheet" href="/styles.css">
+		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+	</head>
+
+	<body>
+		<div id="nav-module"></div>
+		<main>
+			<section class="hero">
+				<div id="hero-module"></div>
+				<div class="hero-content">
+					<h2>Advanced Engine Technology</h2>
+				</div>
+			</section>
+
+			<section class="info-section">
+				<div id="learn-nav-module"></div>
+				<div class="container">
+					<h4>What's in a modern engine?</h4>
+					<p>
+					Among other things, aviation has been slow to adopt modern electronic
+					technology in engines. Many of the systems in your car have low impact
+					when they fail. Perhaps a check engine light comes on, and with any
+					serious failures you end up on the side of the road. But in aviation,
+					we don't exactly have convenient place to pull over. Setting up excess
+					dependencies across many separate systems adds risk in a way that many
+					have pushed back against for a long time. But what can we do to
+					mitigate the risk and still reap the rewards of efficiency and
+					simplicity?
+					</p><p>
+					A modern gasoline-fueled car may offer several systems that the
+					traditional aviation engine lacks:
+					</p>
+					<ul>
+						<li>
+							A common-rail, high pressure fuel injection system that is
+							conditionally capable of highly efficient lean-of-peak (LOP) fuel
+							scheduling
+						</li>
+						<li>
+							Control over ignition timing to ensure combustion propagation is
+							appropriate to the engine load (available air) and piston speeds
+						</li>
+						<li>
+							Control over turbocharger/wastegate operation to avoid exceeding
+							engine or turbo limits
+						</li>
+						<li>
+							Variable cam timing or phasing to extract power more fully at
+							higher engine RPM
+						</li>
+					</ul>
+					<p>
+					There are of course drawbacks in terms of certification cost, weight,
+					complexity, etc. But the biggest drawback that automotive systems
+					don't solve is the problem of redundancy: Despite the low failure
+					rate, most vehicles have only one engine control unit, or ECU. The
+					ignition system is often a capacitive discharge (CD) design, drawing
+					electrical power directly from the battery. There are often
+					single-point critical sensors, where one sensor failing results in the
+					full loss of engine control and power. So what can be done to mitigate
+					these concerns?
+					</p><p>
+					The first solution comes from switching fuels: instead of gasoline,
+					a common advanced engine in aviation uses the Diesel cycle. Unlike a
+					gas engine, a diesel engine does not require any dedicated ignition
+					system. Simply injecting high-pressure fuel directly into the cylinder
+					spontaneously ignites diesel (or in our case, Jet A) due to the heat
+					of compression and the latent heat left from the previous combustion
+					event. The drawback is that the engine is much harder to start when
+					cold, but adding a glowplug system to automatically heat things up for
+					starting is a minor detail. Better yet, this system does not
+					critically affect in-flight operation.
+					</p>
+					<img src="/assets/recips/i4.gif"
+					alt="Inline 4 engine animation"
+					class="learn-img">
+					<p>
+					<i><small>An inline four-cylinder (I4) animation, much like the Austro
+							series used in Diamond NG-series aircraft.</small></i>
+					</p><p>
+					Regarding other solutions: make everything in pairs! Instead of one
+					ECU, the Austro series of aviation engines uses two of them, and they
+					are allowed to crosstalk in a way that monitors the health of each.
+					They are used in turn, checked independently (and automatically) prior
+					to flight, and they are fed by redundant sensors that report signal
+					degradation long before full failure.
+					</p><p>
+					There are still a few single points of failure, but even conventional
+					engines bear these in abundance. Added complexity, however, is where
+					these modern engines begin to look a bit concerning:
+					</p>
+					<img src="/assets/recips/austro.jpg"
+					alt="Austro aviation engine photo"
+					class="learn-img">
+					<p>
+					On the front of the slanted, I4 engine design is a prop flange coming
+					out of a <u>reduction gearbox</u>. The simple fact is that the
+					relatively small displacement of these engines (121 cubic inches for
+					the AE300 series) means they cannot produce the same power as the
+					300-inch (or greater) behemoths of yesteryear without increasing
+					engine RPM. So for the propeller output of 2,300RPM, the engine must
+					end up turning nearly <b>3,900RPM</b> to make its rated 168 horsepower.
+					</p><p>
+					Reduction gearboxes add a few negatives: additional weight, another
+					oil system to monitor or service, and a part that takes the full force
+					of the engine and must be inspected or replaced based on operating
+					criteria. The gearbox oil is able to be used in prop governing, and
+					has a predictably cooler service life leading to longer replacement
+					intervals.
+					</p>
+					<img src="/assets/recips/common-rail.jpg"
+					alt="Common rail fuel injection system"
+					class="learn-img">
+					<p>
+					<i><small>A generic common rail fuel injection system. Note the return
+							fuel heading back to the fuel tank, and schematic representation
+							of control systems linked to the control unit (ECU)</small></i>
+					</p><p>
+					Another single point of failure would be found in the high pressure
+					fuel pump used for the <u>common rail</u> injection system. The fuel
+					injectors depend on incredibly high pressures - max <b>23,000psi</b>
+					- to do their job, and the high pressure pump (regulated by the ECU)
+					provides this rail pressure with no backup. To alleviate some of the
+					pump's load and reap a few small rewards, the common rail pressure is
+					regulated in a continuous-return fashion. Excess fuel beyond the needs
+					of the engine is returned to the fuel tanks, and is slightly warmer
+					after being pressurized. This fuel passes through the fuel tanks and
+					provides a modest amount of tank heating, offsetting the cooling
+					effect of altitude that would otherwise slightly decrease efficiency.
+					</p><p>
+					The last major failure mode introduced in these modern engines is
+					something completely absent from conventional engines: liquid cooling.
+					Using a thermostatic system much like the average on-road vehicle,
+					coolant is kept under pressure (which raises the boiling point) and
+					circulated with an engine-driven coolant pump. As the coolant
+					temperature approaches a thermostatic setpoint, the thermostat valve
+					opens and begins circulating the coolant to the radiator where heat
+					can be passed out the radiator (below).
+					</p>
+					<img src="/assets/recips/radiator.jpg"
+					alt="Austro engine radiator"
+					class="learn-img">
+					<p>
+					There are some distinct advantages to liquid cooling, but first the
+					drawbacks: a loss of coolant represents a loss of the engine, but with
+					a small period of awareness as levels drop and engine temp increases.
+					The other drawback aside from complexity is the weight: the system
+					detracts from useful load significantly. It also increases maintenance
+					requirements and serves as another system to preflight.
+					</p><p>
+					But what about the advantages? Liquid cooled engines run at more
+					consistent internal temperatures (read: metal temps) which leads to
+					more controlled thermal expansion than in air-cooled counterparts.
+					This means the engines can be manufactured to closer tolerances,
+					leading to things like less overall oil consumption/contamination as
+					well as better combustion efficiency across the full operating range.
+					</p><p>
+					In addition, just like in your car: the coolant can be used in a
+					separate <i>heater core</i> through which cabin air can be heated for
+					climate control. This is safer than the exhaust manifold exchangers
+					present in traditional engines, and carries virtually zero risk
+					compared to the potential carbon monoxide concerns of older engines.
+					Also: this heat will be available sooner, even at idle power,	whereas
+					the older systems simply don't warm until the exhaust begins absorbing
+					the heat output of an engine at full power on departure.
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<div id="footer-module"></div>
+		<script src="/components.js"></script>
+	</body>
+</html>
